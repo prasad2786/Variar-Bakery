@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="35.00437">
+<testcase classname="Actitime" name="Login of Actitime Application" time="35.00437">
+<failure message="org.junit.ComparisonFailure: expected:&lt;[actiTIME - Enter Time-Track]&gt; but was:&lt;[Variar]&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at stepDefinitions.LoginStepDefnition.verify_home_page_is_displayed_or_not(LoginStepDefnition.java:44)&#13;&#10;&#9;at ✽.Then verify home page is displayed or not(E:/Java/Program/ZVariar-BDD/src/main/java/Features/Login.feature:7)&#13;&#10;"><![CDATA[Given user should login to actitime.........................................passed
+When by giving correct "Sushma" and "12345".................................passed
+Then verify home page is displayed or not...................................failed
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<[actiTIME - Enter Time-Track]> but was:<[Variar]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepDefinitions.LoginStepDefnition.verify_home_page_is_displayed_or_not(LoginStepDefnition.java:44)
+	at ✽.Then verify home page is displayed or not(E:/Java/Program/ZVariar-BDD/src/main/java/Features/Login.feature:7)
+]]></failure>
+</testcase>
+</testsuite>
